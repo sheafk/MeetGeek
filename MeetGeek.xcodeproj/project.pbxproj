@@ -19,6 +19,9 @@
 		1B15B86E1DB27479008663A6 /* sg-Spotlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B15B86D1DB27479008663A6 /* sg-Spotlight.png */; };
 		1B15B8701DB27B72008663A6 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B15B86F1DB27B72008663A6 /* FBSDKLoginKit.framework */; };
 		1B15B8721DB2829E008663A6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B15B8711DB2829E008663A6 /* GoogleService-Info.plist */; };
+		1B15B8741DB286CD008663A6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B15B8731DB286CD008663A6 /* Constants.swift */; };
+		1B15B8761DB289D9008663A6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B15B8751DB289D9008663A6 /* User.swift */; };
+		1B15B8781DB28A5A008663A6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B15B8771DB28A5A008663A6 /* LoginViewController.swift */; };
 		4DE8141A62E0D19869CD4F19 /* Pods_MeetGeekTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB905D7E87BB084124FB0D61 /* Pods_MeetGeekTests.framework */; };
 		C160249A622AE85A9B4744BD /* Pods_MeetGeekUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6879CA83A1620E62191F28D3 /* Pods_MeetGeekUITests.framework */; };
 /* End PBXBuildFile section */
@@ -58,6 +61,9 @@
 		1B15B86D1DB27479008663A6 /* sg-Spotlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sg-Spotlight.png"; sourceTree = "<group>"; };
 		1B15B86F1DB27B72008663A6 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = MeetGeek/FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		1B15B8711DB2829E008663A6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1B15B8731DB286CD008663A6 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1B15B8751DB289D9008663A6 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1B15B8771DB28A5A008663A6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		29D5AD3796454E3B8A4B6AC2 /* Pods-MeetGeekUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetGeekUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeetGeekUITests/Pods-MeetGeekUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4AED5C46EE58384240ACD932 /* Pods-MeetGeek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetGeek.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeetGeek/Pods-MeetGeek.debug.xcconfig"; sourceTree = "<group>"; };
 		4CAFC623F5CBBBB9E208291B /* Pods-MeetGeek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetGeek.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeetGeek/Pods-MeetGeek.release.xcconfig"; sourceTree = "<group>"; };
@@ -101,6 +107,7 @@
 		1B15B8301DB271B7008663A6 = {
 			isa = PBXGroup;
 			children = (
+				1B15B8731DB286CD008663A6 /* Constants.swift */,
 				1B15B86F1DB27B72008663A6 /* FBSDKLoginKit.framework */,
 				1B15B83B1DB271B7008663A6 /* MeetGeek */,
 				1B15B8531DB271B8008663A6 /* MeetGeekTests */,
@@ -126,6 +133,8 @@
 			children = (
 				1B15B83C1DB271B7008663A6 /* AppDelegate.swift */,
 				1B15B83E1DB271B7008663A6 /* ViewController.swift */,
+				1B15B8751DB289D9008663A6 /* User.swift */,
+				1B15B8771DB28A5A008663A6 /* LoginViewController.swift */,
 				1B15B8401DB271B7008663A6 /* Main.storyboard */,
 				1B15B8461DB271B8008663A6 /* Assets.xcassets */,
 				1B15B86D1DB27479008663A6 /* sg-Spotlight.png */,
@@ -445,9 +454,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B15B8781DB28A5A008663A6 /* LoginViewController.swift in Sources */,
 				1B15B83F1DB271B7008663A6 /* ViewController.swift in Sources */,
 				1B15B83D1DB271B7008663A6 /* AppDelegate.swift in Sources */,
 				1B15B8451DB271B8008663A6 /* MeetGeek.xcdatamodeld in Sources */,
+				1B15B8761DB289D9008663A6 /* User.swift in Sources */,
+				1B15B8741DB286CD008663A6 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

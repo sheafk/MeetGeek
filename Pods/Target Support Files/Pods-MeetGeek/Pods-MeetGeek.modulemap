@@ -1,0 +1,6 @@
+framework module Pods_MeetGeek {
+  umbrella header "Pods-MeetGeek-umbrella.h"
+
+  export *
+  module * { export * }
+}
