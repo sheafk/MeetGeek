@@ -10,7 +10,6 @@
 		1520DB0F0FC6CDE9055100A9 /* Pods_MeetGeek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE13433D920A5711B008E88 /* Pods_MeetGeek.framework */; };
 		1B15B83D1DB271B7008663A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B15B83C1DB271B7008663A6 /* AppDelegate.swift */; };
 		1B15B83F1DB271B7008663A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B15B83E1DB271B7008663A6 /* ViewController.swift */; };
-		1B15B8421DB271B7008663A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B15B8401DB271B7008663A6 /* Main.storyboard */; };
 		1B15B8451DB271B8008663A6 /* MeetGeek.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B15B8431DB271B7008663A6 /* MeetGeek.xcdatamodeld */; };
 		1B15B8471DB271B8008663A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B15B8461DB271B8008663A6 /* Assets.xcassets */; };
 		1B15B84A1DB271B8008663A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B15B8481DB271B8008663A6 /* LaunchScreen.storyboard */; };
@@ -21,6 +20,8 @@
 		1B15B8741DB286CD008663A6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B15B8731DB286CD008663A6 /* Constants.swift */; };
 		1B15B8761DB289D9008663A6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B15B8751DB289D9008663A6 /* User.swift */; };
 		1B15B8781DB28A5A008663A6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B15B8771DB28A5A008663A6 /* LoginViewController.swift */; };
+		1B15B87A1DB29BE1008663A6 /* EventPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B15B8791DB29BE1008663A6 /* EventPickerViewController.swift */; };
+		1B15B87C1DB29CB8008663A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B15B87B1DB29CB8008663A6 /* Main.storyboard */; };
 		4DE8141A62E0D19869CD4F19 /* Pods_MeetGeekTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB905D7E87BB084124FB0D61 /* Pods_MeetGeekTests.framework */; };
 		C160249A622AE85A9B4744BD /* Pods_MeetGeekUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6879CA83A1620E62191F28D3 /* Pods_MeetGeekUITests.framework */; };
 /* End PBXBuildFile section */
@@ -46,7 +47,6 @@
 		1B15B8391DB271B7008663A6 /* MeetGeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetGeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B15B83C1DB271B7008663A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B15B83E1DB271B7008663A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1B15B8411DB271B7008663A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B15B8441DB271B7008663A6 /* MeetGeek.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MeetGeek.xcdatamodel; sourceTree = "<group>"; };
 		1B15B8461DB271B8008663A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B15B8491DB271B8008663A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,9 +59,12 @@
 		1B15B8611DB271B8008663A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B15B86D1DB27479008663A6 /* sg-Spotlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sg-Spotlight.png"; sourceTree = "<group>"; };
 		1B15B8711DB2829E008663A6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		1B15B8731DB286CD008663A6 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1B15B8731DB286CD008663A6 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = ../Constants.swift; sourceTree = "<group>"; };
 		1B15B8751DB289D9008663A6 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		1B15B8771DB28A5A008663A6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1B15B8791DB29BE1008663A6 /* EventPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventPickerViewController.swift; sourceTree = "<group>"; };
+		1B15B87B1DB29CB8008663A6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1B15B87D1DB29F76008663A6 /* MeetGeek.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MeetGeek.entitlements; sourceTree = "<group>"; };
 		29D5AD3796454E3B8A4B6AC2 /* Pods-MeetGeekUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetGeekUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeetGeekUITests/Pods-MeetGeekUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4AED5C46EE58384240ACD932 /* Pods-MeetGeek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetGeek.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeetGeek/Pods-MeetGeek.debug.xcconfig"; sourceTree = "<group>"; };
 		4CAFC623F5CBBBB9E208291B /* Pods-MeetGeek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetGeek.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeetGeek/Pods-MeetGeek.release.xcconfig"; sourceTree = "<group>"; };
@@ -104,7 +107,6 @@
 		1B15B8301DB271B7008663A6 = {
 			isa = PBXGroup;
 			children = (
-				1B15B8731DB286CD008663A6 /* Constants.swift */,
 				1B15B83B1DB271B7008663A6 /* MeetGeek */,
 				1B15B8531DB271B8008663A6 /* MeetGeekTests */,
 				1B15B85E1DB271B8008663A6 /* MeetGeekUITests */,
@@ -127,16 +129,19 @@
 		1B15B83B1DB271B7008663A6 /* MeetGeek */ = {
 			isa = PBXGroup;
 			children = (
+				1B15B8731DB286CD008663A6 /* Constants.swift */,
 				1B15B83C1DB271B7008663A6 /* AppDelegate.swift */,
 				1B15B83E1DB271B7008663A6 /* ViewController.swift */,
 				1B15B8751DB289D9008663A6 /* User.swift */,
 				1B15B8771DB28A5A008663A6 /* LoginViewController.swift */,
-				1B15B8401DB271B7008663A6 /* Main.storyboard */,
+				1B15B87B1DB29CB8008663A6 /* Main.storyboard */,
+				1B15B8791DB29BE1008663A6 /* EventPickerViewController.swift */,
 				1B15B8461DB271B8008663A6 /* Assets.xcassets */,
 				1B15B86D1DB27479008663A6 /* sg-Spotlight.png */,
 				1B15B8481DB271B8008663A6 /* LaunchScreen.storyboard */,
 				1B15B84B1DB271B8008663A6 /* Info.plist */,
 				1B15B8711DB2829E008663A6 /* GoogleService-Info.plist */,
+				1B15B87D1DB29F76008663A6 /* MeetGeek.entitlements */,
 				1B15B8431DB271B7008663A6 /* MeetGeek.xcdatamodeld */,
 			);
 			path = MeetGeek;
@@ -259,7 +264,13 @@
 				TargetAttributes = {
 					1B15B8381DB271B7008663A6 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = T56TUBW264;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					1B15B84F1DB271B8008663A6 = {
 						CreatedOnToolsVersion = 8.0;
@@ -299,10 +310,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B15B86E1DB27479008663A6 /* sg-Spotlight.png in Resources */,
+				1B15B87C1DB29CB8008663A6 /* Main.storyboard in Resources */,
 				1B15B84A1DB271B8008663A6 /* LaunchScreen.storyboard in Resources */,
 				1B15B8721DB2829E008663A6 /* GoogleService-Info.plist in Resources */,
 				1B15B8471DB271B8008663A6 /* Assets.xcassets in Resources */,
-				1B15B8421DB271B7008663A6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +463,7 @@
 			files = (
 				1B15B8781DB28A5A008663A6 /* LoginViewController.swift in Sources */,
 				1B15B83F1DB271B7008663A6 /* ViewController.swift in Sources */,
+				1B15B87A1DB29BE1008663A6 /* EventPickerViewController.swift in Sources */,
 				1B15B83D1DB271B7008663A6 /* AppDelegate.swift in Sources */,
 				1B15B8451DB271B8008663A6 /* MeetGeek.xcdatamodeld in Sources */,
 				1B15B8761DB289D9008663A6 /* User.swift in Sources */,
@@ -491,14 +503,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1B15B8401DB271B7008663A6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1B15B8411DB271B7008663A6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1B15B8481DB271B8008663A6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -608,12 +612,15 @@
 			baseConfigurationReference = 4AED5C46EE58384240ACD932 /* Pods-MeetGeek.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MeetGeek/MeetGeek.entitlements;
+				DEVELOPMENT_TEAM = T56TUBW264;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MeetGeek",
 				);
 				INFOPLIST_FILE = MeetGeek/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MACH_O_TYPE = mh_execute;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sfk.MeetGeek;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -625,12 +632,15 @@
 			baseConfigurationReference = 4CAFC623F5CBBBB9E208291B /* Pods-MeetGeek.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MeetGeek/MeetGeek.entitlements;
+				DEVELOPMENT_TEAM = T56TUBW264;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MeetGeek",
 				);
 				INFOPLIST_FILE = MeetGeek/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MACH_O_TYPE = mh_execute;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sfk.MeetGeek;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;

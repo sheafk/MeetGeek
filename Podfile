@@ -18,6 +18,8 @@ target 'MeetGeek' do
   end
 
 pod 'Firebase/Core'
+pod 'Firebase/Auth'
+pod 'Firebase/Database'
 
 
 end
