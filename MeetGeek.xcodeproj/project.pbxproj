@@ -15,6 +15,8 @@
 		1B15B84A1DB271B8008663A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B15B8481DB271B8008663A6 /* LaunchScreen.storyboard */; };
 		1B15B8551DB271B8008663A6 /* MeetGeekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B15B8541DB271B8008663A6 /* MeetGeekTests.swift */; };
 		1B15B8601DB271B8008663A6 /* MeetGeekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B15B85F1DB271B8008663A6 /* MeetGeekUITests.swift */; };
+		1B15B86E1DB27479008663A6 /* sg-Spotlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B15B86D1DB27479008663A6 /* sg-Spotlight.png */; };
+		1B15B8701DB27B72008663A6 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B15B86F1DB27B72008663A6 /* FBSDKLoginKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		1B15B85B1DB271B8008663A6 /* MeetGeekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetGeekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B15B85F1DB271B8008663A6 /* MeetGeekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetGeekUITests.swift; sourceTree = "<group>"; };
 		1B15B8611DB271B8008663A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B15B86D1DB27479008663A6 /* sg-Spotlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sg-Spotlight.png"; sourceTree = "<group>"; };
+		1B15B86F1DB27B72008663A6 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = MeetGeek/FBSDKLoginKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B15B8701DB27B72008663A6 /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +84,7 @@
 		1B15B8301DB271B7008663A6 = {
 			isa = PBXGroup;
 			children = (
+				1B15B86F1DB27B72008663A6 /* FBSDKLoginKit.framework */,
 				1B15B83B1DB271B7008663A6 /* MeetGeek */,
 				1B15B8531DB271B8008663A6 /* MeetGeekTests */,
 				1B15B85E1DB271B8008663A6 /* MeetGeekUITests */,
@@ -103,6 +109,7 @@
 				1B15B83E1DB271B7008663A6 /* ViewController.swift */,
 				1B15B8401DB271B7008663A6 /* Main.storyboard */,
 				1B15B8461DB271B8008663A6 /* Assets.xcassets */,
+				1B15B86D1DB27479008663A6 /* sg-Spotlight.png */,
 				1B15B8481DB271B8008663A6 /* LaunchScreen.storyboard */,
 				1B15B84B1DB271B8008663A6 /* Info.plist */,
 				1B15B8431DB271B7008663A6 /* MeetGeek.xcdatamodeld */,
@@ -235,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B15B86E1DB27479008663A6 /* sg-Spotlight.png in Resources */,
 				1B15B84A1DB271B8008663A6 /* LaunchScreen.storyboard in Resources */,
 				1B15B8471DB271B8008663A6 /* Assets.xcassets in Resources */,
 				1B15B8421DB271B7008663A6 /* Main.storyboard in Resources */,
@@ -416,6 +424,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MeetGeek",
+				);
 				INFOPLIST_FILE = MeetGeek/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sfk.MeetGeek;
@@ -428,6 +440,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MeetGeek",
+				);
 				INFOPLIST_FILE = MeetGeek/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sfk.MeetGeek;

@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  MeetGeek
 //
-//  Created by Flatiron School on 10/15/16.
+//  Created by MeetGeek on 10/15/16.
 //  Copyright © 2016 MeeGeek. All rights reserved.
 //
 
