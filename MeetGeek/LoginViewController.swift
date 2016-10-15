@@ -42,11 +42,11 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func signUpDidTouch(_ sender: AnyObject) {
-        let alert = UIAlertController(title: "Register",
-                                      message: "Register",
+        let alert = UIAlertController(title: "Signup",
+                                      message: "for MeetGeek",
                                       preferredStyle: .alert)
         
-        let saveAction = UIAlertAction(title: "Save",
+        let saveAction = UIAlertAction(title: "Signup & Login",
                                        style: .default) { action in
                                         // 1
                                         let emailField = alert.textFields![0]
@@ -54,7 +54,7 @@ class LoginViewController: UIViewController {
                                         
                                         // 2
                                         FIRAuth.auth()?.createUser(withEmail: emailField.text!,
-                                                        password: passwordField.text!) { user, error in
+                                                                   password: passwordField.text!) { user, error in
                                                                     if error == nil {
                                                                         // 3
                                                                         FIRAuth.auth()!.signIn(withEmail: self.textFieldLoginEmail.text!,

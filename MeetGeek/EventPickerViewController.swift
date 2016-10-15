@@ -13,10 +13,17 @@ import FirebaseDatabase
 
 class EventPickerViewController: UIViewController {
 
+//    @IBOutlet weak var userNumber: UITextField!
+//    @IBOutlet weak var userNote: UITextField!
+//    @IBOutlet weak var userHeShe: UITextField!
+    
     var user: User!
     var items: [Event] = []
     let ref = FIRDatabase.database().reference(withPath: "events")
     let usersRef = FIRDatabase.database().reference(withPath: "online")
+    
+    var reference: FIRDatabaseReference!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,6 +41,19 @@ class EventPickerViewController: UIViewController {
 
         
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+
+    @IBAction func submit(_ sender: AnyObject) {
+//        
+//        let number = userNumber.text!
+//        let gender = userHeShe.text!
+//        let note = userNote.text!
+//        
+//    self.ref.child("users").child(user.uid).setValue(["number": number])
+//    self.ref.child("users").child(user.uid).setValue(["HeShe": userHeShe])
+//    self.ref.child("users").child(user.uid).setValue(["note": note])
+//        
     }
     
     override func didReceiveMemoryWarning() {
