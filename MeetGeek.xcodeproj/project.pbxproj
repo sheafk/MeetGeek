@@ -22,6 +22,7 @@
 		1B15B8781DB28A5A008663A6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B15B8771DB28A5A008663A6 /* LoginViewController.swift */; };
 		1B15B87A1DB29BE1008663A6 /* EventPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B15B8791DB29BE1008663A6 /* EventPickerViewController.swift */; };
 		1B15B87C1DB29CB8008663A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B15B87B1DB29CB8008663A6 /* Main.storyboard */; };
+		1B15B87F1DB2BA52008663A6 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B15B87E1DB2BA52008663A6 /* Event.swift */; };
 		4DE8141A62E0D19869CD4F19 /* Pods_MeetGeekTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB905D7E87BB084124FB0D61 /* Pods_MeetGeekTests.framework */; };
 		C160249A622AE85A9B4744BD /* Pods_MeetGeekUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6879CA83A1620E62191F28D3 /* Pods_MeetGeekUITests.framework */; };
 /* End PBXBuildFile section */
@@ -65,6 +66,7 @@
 		1B15B8791DB29BE1008663A6 /* EventPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventPickerViewController.swift; sourceTree = "<group>"; };
 		1B15B87B1DB29CB8008663A6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		1B15B87D1DB29F76008663A6 /* MeetGeek.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MeetGeek.entitlements; sourceTree = "<group>"; };
+		1B15B87E1DB2BA52008663A6 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		29D5AD3796454E3B8A4B6AC2 /* Pods-MeetGeekUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetGeekUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeetGeekUITests/Pods-MeetGeekUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4AED5C46EE58384240ACD932 /* Pods-MeetGeek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetGeek.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeetGeek/Pods-MeetGeek.debug.xcconfig"; sourceTree = "<group>"; };
 		4CAFC623F5CBBBB9E208291B /* Pods-MeetGeek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetGeek.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeetGeek/Pods-MeetGeek.release.xcconfig"; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				1B15B8771DB28A5A008663A6 /* LoginViewController.swift */,
 				1B15B87B1DB29CB8008663A6 /* Main.storyboard */,
 				1B15B8791DB29BE1008663A6 /* EventPickerViewController.swift */,
+				1B15B87E1DB2BA52008663A6 /* Event.swift */,
 				1B15B8461DB271B8008663A6 /* Assets.xcassets */,
 				1B15B86D1DB27479008663A6 /* sg-Spotlight.png */,
 				1B15B8481DB271B8008663A6 /* LaunchScreen.storyboard */,
@@ -461,6 +464,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B15B87F1DB2BA52008663A6 /* Event.swift in Sources */,
 				1B15B8781DB28A5A008663A6 /* LoginViewController.swift in Sources */,
 				1B15B83F1DB271B7008663A6 /* ViewController.swift in Sources */,
 				1B15B87A1DB29BE1008663A6 /* EventPickerViewController.swift in Sources */,
