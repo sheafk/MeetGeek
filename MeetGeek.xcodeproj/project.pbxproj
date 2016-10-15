@@ -31,6 +31,7 @@
 		1B15B8941DB2DA70008663A6 /* EventTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B15B88B1DB2DA70008663A6 /* EventTableViewCell.m */; };
 		1B15B8951DB2DA70008663A6 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B15B88D1DB2DA70008663A6 /* Event.m */; };
 		1B15B8961DB2DA70008663A6 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B15B88F1DB2DA70008663A6 /* Constants.m */; };
+		1B15B89B1DB2E805008663A6 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B15B89A1DB2E805008663A6 /* SignUpViewController.m */; };
 		4DE8141A62E0D19869CD4F19 /* Pods_MeetGeekTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB905D7E87BB084124FB0D61 /* Pods_MeetGeekTests.framework */; };
 		C160249A622AE85A9B4744BD /* Pods_MeetGeekUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6879CA83A1620E62191F28D3 /* Pods_MeetGeekUITests.framework */; };
 /* End PBXBuildFile section */
@@ -90,6 +91,8 @@
 		1B15B88D1DB2DA70008663A6 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
 		1B15B88E1DB2DA70008663A6 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		1B15B88F1DB2DA70008663A6 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		1B15B8991DB2E805008663A6 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		1B15B89A1DB2E805008663A6 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
 		29D5AD3796454E3B8A4B6AC2 /* Pods-MeetGeekUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetGeekUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeetGeekUITests/Pods-MeetGeekUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4AED5C46EE58384240ACD932 /* Pods-MeetGeek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetGeek.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeetGeek/Pods-MeetGeek.debug.xcconfig"; sourceTree = "<group>"; };
 		4CAFC623F5CBBBB9E208291B /* Pods-MeetGeek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetGeek.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeetGeek/Pods-MeetGeek.release.xcconfig"; sourceTree = "<group>"; };
@@ -168,6 +171,8 @@
 				1B15B8431DB271B7008663A6 /* MeetGeek.xcdatamodeld */,
 				1B15B87B1DB29CB8008663A6 /* Main.storyboard */,
 				1B15B8831DB2DA70008663A6 /* curtains.jpg */,
+				1B15B8991DB2E805008663A6 /* SignUpViewController.h */,
+				1B15B89A1DB2E805008663A6 /* SignUpViewController.m */,
 				1B15B8841DB2DA70008663A6 /* AppDelegate.h */,
 				1B15B8851DB2DA70008663A6 /* AppDelegate.m */,
 				1B15B8861DB2DA70008663A6 /* ViewController.h */,
@@ -510,6 +515,7 @@
 				1B15B87F1DB2BA52008663A6 /* Event.swift in Sources */,
 				1B15B8781DB28A5A008663A6 /* LoginViewController.swift in Sources */,
 				1B15B8961DB2DA70008663A6 /* Constants.m in Sources */,
+				1B15B89B1DB2E805008663A6 /* SignUpViewController.m in Sources */,
 				1B15B83F1DB271B7008663A6 /* ViewController.swift in Sources */,
 				1B15B8951DB2DA70008663A6 /* Event.m in Sources */,
 				1B15B8911DB2DA70008663A6 /* AppDelegate.m in Sources */,

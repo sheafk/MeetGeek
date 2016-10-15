@@ -20,7 +20,11 @@ class OnlineUsersViewController: UIViewController {
     let userCell = "UserCell"
     
     // MARK: Properties
-    var currentUsers: [String] = []
+    var currentUsers: [String] = ["George Washington", "Maria Reynolds", "Aaron Burr", "Alexander Hamilton"]
+    
+    var notes: [String] = ["Pumped to see this show!", "A social event would be fun.", "I am not gonna waste my shot!", "My name is Alexander Hamilton"]
+    
+    var age: [Int] = [34, 22, 29, 31]
     
     // MARK: UIViewController Lifecycle
     override func viewDidLoad() {

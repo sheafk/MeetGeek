@@ -10,6 +10,7 @@
 #import "EventTableViewCell.h"
 #import "Constants.h"
 #import "Event.h"
+#import "SignUpViewController.h"
 
 @interface ViewController ()
 
@@ -61,9 +62,23 @@
     return cell;
 }
 
+
+
 // Table View Delegate
 
 - (void)tableView:(UITableView * )tableView didSelectRowAtIndexPath:(NSIndexPath * )indexPath{
+    
+    Event *event = self.eventsList[indexPath.row];
+    SignUpViewController *view = [[SignUpViewController alloc] init];
+    view.image = [[UIImageView alloc]init];
+    view.image.image = event.image;
+    view.name.text = event.name;
+    view.time.text = event.time;
+    
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle: nil];
+    view = [storyboard instantiateViewControllerWithIdentifier:@"SignUp"];
+    
+    [self.navigationController pushViewController:view animated:YES];
     
     
 }
