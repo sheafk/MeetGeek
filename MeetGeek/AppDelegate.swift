@@ -9,16 +9,23 @@
 import UIKit
 import CoreData
 import Firebase
+import FirebaseAuth
+import FirebaseDatabase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    override init() {
+        FIRApp.configure()
+        //FIRDatabase.database().persistenceEnabled = true
+    }
+
     func application(application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?)
         -> Bool {
-            FIRApp.configure()
+            //FIRApp.configure()
             return true
     }
     
