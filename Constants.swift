@@ -8,5 +8,4 @@
 
 import Foundation
 
-
-let BASE_URL = "https://MeetGeek.firebaseio.com"
+let BASE_URL = "https://meetgeek-a30a4.firebaseio.com"
